@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First Side Project</string>
+    <string name="display_get_button">Need to get list</string>
+    <string name="display_have_button">Already have list</string>
+    <string name="type_needs_hint">I need to get...</string>
+    <string name="add_button">add</string>
+    <string name="shopping_list_text_view">My shopping list</string>
+    <string name="Empty_SList">Empty shopping list...</string>
+</resources>
