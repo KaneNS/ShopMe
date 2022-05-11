@@ -10,8 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstSideProject">
-        <activity android:name=".testing"></activity>
-        <activity android:name=".tempSwipeActivity" />
         <activity android:name=".DBHelper" />
         <activity android:name=".ToGetActivity" />
         <activity android:name=".MainActivity">
