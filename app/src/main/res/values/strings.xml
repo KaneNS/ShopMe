@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My First Side Project</string>
+    <string name="app_name">ShopMe</string>
     <string name="display_get_button">Need to get list</string>
     <string name="display_have_button">Already have list</string>
     <string name="type_needs_hint">I need to get...</string>

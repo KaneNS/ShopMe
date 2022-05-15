@@ -5,11 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-
-class MainActivity : AppCompatActivity() {
+class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
     }
 
     fun displayToGetList(view: View){ // create new activity when button is clicked
@@ -22,16 +21,3 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 }
-
-
-
-
-// Functionality to be added:
-
-// Drink water reminder
-// Kitchen Calorie counter
-// Barcode scanner
-// sell by date reminders
-// Recipe ideas created by items in kitchen ext: voting system for recipes created by users.
-// Clubcard chooser: takes user to their clubcard app - vouchers/View points
-//

@@ -10,9 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstSideProject">
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:exported="false"
+            android:theme="@style/Theme.MyFirstSideProject"/>
         <activity android:name=".DBHelper" />
         <activity android:name=".ToGetActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="ShopMe"
+            android:theme="@style/Theme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

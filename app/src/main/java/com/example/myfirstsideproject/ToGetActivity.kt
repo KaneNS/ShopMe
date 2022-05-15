@@ -2,13 +2,22 @@ package com.example.myfirstsideproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_to_get.*
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 
 
 class ToGetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_to_get)
+
+        // Variables
+        val button3 = findViewById<Button>(R.id.button3)
+        val itemToGetListEditText = findViewById<EditText>(R.id.itemToGetListEditText)
+        val textView2 = findViewById<TextView>(R.id.textView2)
+
+
         // below code is to add on click
         // listener to our add name button
         button3.setOnClickListener{
